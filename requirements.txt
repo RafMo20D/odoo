@@ -1,6 +1,6 @@
 Babel==2.9.1  # min version = 2.6.0 (Focal with security backports)
 chardet==3.0.4
-cryptography==41.0.3  # incompatibility between pyopenssl 19.0.0 and cryptography>=37.0.0
+cryptography==41.0.5  # incompatibility between pyopenssl 19.0.0 and cryptography>=37.0.0
 decorator==4.4.2
 docutils==0.16
 ebaysdk==2.1.5
@@ -41,8 +41,8 @@ reportlab==3.6.13 # version < 3.5.54 are not compatible with Pillow 8.1.2 and 3.
 requests==2.31.0 # versions < 2.25 aren't compatible w/ urllib3 1.26. Bullseye = 2.25.1. min version = 2.22.0 (Focal)
 urllib3==1.26.5 # indirect / min version = 1.25.8 (Focal with security backports)
 vobject==0.9.6.1
-Werkzeug==2.2.3 ; python_version <= '3.9'
-Werkzeug==2.0.2 ; python_version > '3.9'  # (Jammy)
+Werkzeug==3.0.1 ; python_version <= '3.9'
+Werkzeug==3.0.1 ; python_version > '3.9'  # (Jammy)
 xlrd==1.1.0; python_version < '3.8'
 xlrd==1.2.0; python_version >= '3.8'
 XlsxWriter==1.1.2
