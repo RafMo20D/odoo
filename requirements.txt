@@ -12,7 +12,7 @@ gevent==23.9.0 ; python_version > '3.9'  # (Jammy)
 greenlet==0.4.15 ; python_version == '3.7'
 greenlet==0.4.17 ; python_version > '3.7' and python_version <= '3.9'
 greenlet==1.1.2 ; python_version  > '3.9'  # (Jammy)
-idna==2.8
+idna==3.7
 Jinja2==2.11.3 # min version = 2.10.1 (Focal - with security backports)
 libsass==0.18.0
 lxml==4.9.1 # min version = 4.5.0 (Focal - with security backports)
